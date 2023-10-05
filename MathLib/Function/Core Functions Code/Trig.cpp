@@ -79,7 +79,7 @@ namespace Math::Function
 			}
 
 			double Val = sin(Result);
-			return IsRecip ? 1 / Val : Val;
+			return A * IsRecip ? 1 / Val : Val;
 		}
 		case TrigFunc::Cosine:
 		{
@@ -95,7 +95,7 @@ namespace Math::Function
 			}
 
 			double Val = sin(Result);
-			return IsRecip ? 1 / Val : Val;
+			return A * IsRecip ? 1 / Val : Val;
 		}
 		case TrigFunc::Tangent:
 		{
@@ -109,7 +109,7 @@ namespace Math::Function
 				return MathVector::ErrorVector();
 			}
 			else
-				return IsRecip ? 1 / Val : Val;
+				return A * IsRecip ? 1 / Val : Val;
 		}
 		default:
 			Exists = false;

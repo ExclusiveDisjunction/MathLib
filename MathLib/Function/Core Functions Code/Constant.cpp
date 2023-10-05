@@ -25,7 +25,7 @@ namespace Math::Function
 		}
 
 		Exists = true;
-		return _Data;
+		return A * _Data;
 	}
 
 	bool Constant::ComparesTo(FunctionBase* const& Obj) const

@@ -55,8 +55,7 @@ namespace Math::Function
 		if (!Exists)
 			return MathVector::ErrorVector();
 
-		double DBase = Base[0];
-		return A * (DBase < 0 ? DBase * -1 : DBase);
+		return A * Base.Magnitude();
 	}
 
 	FunctionBase* AbsoluteValue::Clone() const
