@@ -1,7 +1,7 @@
 #include "StdCalc.h"
 
 #include "MathVector.h"
-#include "..\Core\Vector.h"
+#include "Vector.h"
 #include <Windows.h>
 
 using namespace Core;

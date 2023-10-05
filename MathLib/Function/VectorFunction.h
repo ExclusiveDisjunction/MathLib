@@ -1,7 +1,7 @@
 #pragma once
 
 #include "FunctionBase.h"
-#include "..\..\Core\SequenceBase.h"
+#include "SequenceBase.h"
 
 namespace Math::Function
 {
